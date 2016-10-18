@@ -1,0 +1,8 @@
+#define VERSION_MAJOR @gameOfLife_VERSION_MAJOR@
+#define VERSION_MINOR @gameOfLife_VERSION_MINOR@
+
+namespace Config {
+    const int SCREEN_HEIGHT = 1050;
+    const int SCREEN_WIDTH = 1680;
+    const int TILE_SIZE = 20;
+}
