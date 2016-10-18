@@ -1,7 +1,4 @@
-Hello World using CMake
+Game of life using SFML
 =======================
-To compile run `sh build_run.sh`
 
-Requirements
-============
- - CMake 3.6.1
+TODO: Write README
