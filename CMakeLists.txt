@@ -22,9 +22,10 @@ include_directories("${PROJECT_BINARY_DIR}")
 
 # Define sources and executable
 include_directories(public)
+file(GLOB HEADERS "public/*.hpp")
 file(GLOB SOURCES "private/*.cpp")
 set(EXECUTABLE_NAME "gameOfLife")
-add_executable(${EXECUTABLE_NAME} ${SOURCES} main.cpp)
+add_executable(${EXECUTABLE_NAME} ${SOURCES} ${HEADERS} main.cpp)
 
 
 # Detect and add SFML
