@@ -1,5 +1,8 @@
 .idea
 build/
+build*/
+build_win/
+
 
 # Folder view configuration files
 .DS_Store
